@@ -1,0 +1,49 @@
+.singleBlog {
+  flex: 9;
+  margin-top: 10px;
+}
+
+.singleBlogWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+}
+
+.singleBlogImg {
+  padding: auto;
+  margin-right: 10px;
+}
+
+#light .singleBlogTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+  color: #181818;
+}
+
+#dark .singleBlogTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+  color: #f1f1f1;
+}
+
+#light .singleBlogText {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#dark .singleBlogText {
+  color: rgb(232, 232, 232);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singleBlogText::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
